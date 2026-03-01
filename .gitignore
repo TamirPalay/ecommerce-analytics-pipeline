@@ -1,0 +1,19 @@
+# Python
+venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Data (keep raw/processed out of git; we'll use small samples + instructions)
+Data/Raw/
+Data/Processed/
+
+# Power BI
+*.pbix
+
+# Secrets
+.env

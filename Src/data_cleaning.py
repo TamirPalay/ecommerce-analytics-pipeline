@@ -114,5 +114,6 @@ fact_orders.to_csv(f"{PROCESSED_PATH}/fact_orders.csv", index=False)
 fact_order_items.to_csv(f"{PROCESSED_PATH}/fact_order_items.csv", index=False)
 dim_customers.to_csv(f"{PROCESSED_PATH}/dim_customers.csv", index=False)
 dim_products.to_csv(f"{PROCESSED_PATH}/dim_products.csv", index=False)
+os.remove(f"{PROCESSED_PATH}/placeholder.txt")
 
 print("Processed files saved to Data/Processed.")
